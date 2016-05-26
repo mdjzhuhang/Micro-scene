@@ -4,8 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<meta name="apple-mobile-web-app-title" content="Hi,I'm Zhu Hang">
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
 		<title>Hi,I'm Zhu Hang.</title>
 		<link rel="stylesheet" type="text/css" href="css/reset-mobile.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -15,12 +15,12 @@
 	<body>
 		<script type="text/javascript" src="js/index.js"></script>
 		<div id="loading" class="loading">
-			<div class="load-pic"></div>
+			<img src="images/loading.gif" class="load-pic"/>
 		</div>
 		<div class="main" id="main">
 			<div class="swiper-container">
 			    <div class="swiper-wrapper">
-			    	<!-- ----------------page1---------------------- -->
+			    	<!-- =================page1================== -->
 			        <div class="swiper-slide">
 			        	<!-- 背景 -->
 			        	<img class="bj-1" src="images/page1.png"/>
@@ -41,7 +41,7 @@
 		        			<div class="ani p1-site" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="3.8s" >前端开发工程师</div>
 			        	</div>
 			        </div>
-			        <!-- ----------------page2---------------------- -->
+			        <!-- ==============page2=============== -->
 			        <div class="swiper-slide">
 			        	<div class="p2-logo">
 			        		<img class="ani dhu" swiper-animate-effect="rubberBand" swiper-animate-duration="0.6s"  src="images/dhu.png"/>
@@ -58,37 +58,49 @@
 			        		<img class="p2-1" src="images/p2-pic1.png"/>
 			        		<img class="p2-2" src="images/p2-pic2.png"/>
 			        		<img class="ani my-college" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s" src="images/my-college.jpg"/>
+			        		<div class="ani p2-line2" swiper-animate-effect="fadeIn" swiper-animate-duration="0.1s" swiper-animate-delay="3.8s">
+			        			<img  class="ani"  swiper-animate-effect="fadeInDown" swiper-animate-duration="0.6s" swiper-animate-delay="3.9s" src="images/line.png">
+			        		</div>			        		
 			        	</div>
 			        </div>
-			        <!-- ----------------page3---------------------- -->
+			        <!-- ============page3========== -->
 			        <div class="swiper-slide">
+			        	<img class="p3-line2" src="images/line.png">
 			        	<img class="skills" src="images/skills.png"/>
-			        	<div class="ani p3-con" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s">
+			        	<div class="p3-con">
 			        		<img class="p3-tag" src="images/p3-tag.png"/>
-		        			<img class="ani skills1" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s" src="images/p3-skills1.png"/>
-		        			<img class="ani skills2" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s" src="images/skills2.png"/>
+			        		<div  class="skills1">
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="0.1s">掌握HTML和CSS</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="0.4s">掌握JavaScript和Ajax</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="0.7s">熟练使用jQuery库</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="1s">熟悉AngularJS，Zepto框架</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="1.3s">熟悉Bootstrap和jQuery UI</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="1.6s">熟悉响应式布局</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="1.9s">熟悉微信开发</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="2.1s">能够使用gulp、Git、SVN</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="2.4s">熟练使用sass</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="2.7s">了解MVC和MVVM设计模式</p>
+			        			<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.4s" swiper-animate-delay="3s">了解前端性能优化</p>
+			        		</div>
 		        			<img class="p3-pic1" src="images/p3-1.png"/>
 		        			<img class="p3-pic2" src="images/p3-2.png"/>
 		        			<img class="p3-pic3" src="images/p3-3.png"/>
 		        			<img class="p3-pic4" src="images/p3-4.png"/>
 			        	</div>
 			        </div>
-			        <!-- ----------------page4---------------------- -->
+			        <!-- ===============page4============ -->
 			        <div class="swiper-slide">
 						<img class="ani p4" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" src="images/p4.png"/>
 			        	<div class="p4-con">
 			        		<img class="ani end" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s" src="images/end.png"/>
 			        		<img class="ani code" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s" src="images/code.png"/>
 			        		<img class="ani email" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s" src="images/email.png"/>
-			        		<img class="ani tel" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s" src="images/tel.png"/>
+			        		<img class="ani tel" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s" src="images/tel.png"/>
 			        	</div>
 			        </div>
-			    </div>
-			    
-			</div>
-		
-		</div>
-		
+			    </div>			    
+			</div>		
+		</div>		
 		<script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
 		<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
 		

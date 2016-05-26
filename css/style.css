@@ -298,17 +298,36 @@ body{margin: 0 auto;}
 	height: 100%;
 	border-radius: 4px;
 }
+
+.p2-line2{
+	position: absolute;
+	bottom: -65px;
+	width: 15px;
+	height: 70px;
+	left: 50%;
+	overflow: hidden;
+}
+.p2-line2>img{
+	width: 100%;
+}
 /* page3 */
+.p3-line2{
+	position: absolute;
+	top:0;
+	left:51%;
+	width:15px;
+	height: 15%;
+}
 .skills{
 	position: absolute;
 	right: 3%;
 	top:5%;
 	height: 10%;
-	-webkit-transform: rotateZ(-5deg);
+	-webkit-transform: rotateZ(5deg);
 }
 .p3-con{
 	width: 77%;
-	height: 65%;
+	height: 60%;
 	padding: 10% 0;
 	margin: 0 auto;
 	position: relative;
@@ -322,53 +341,39 @@ body{margin: 0 auto;}
 	top:-4%;
 	left:16%;
 }
-
 .skills1{
-	height: 50%;
-	margin-left:15%;
-	transform: rotateZ(5deg);
-	-webkit-transform: rotateZ(5deg);
+	height: 100%;
+	width: 70%;
+	margin:0 auto;
+	font-size: 16px;
+	line-height: 30px;	
+	overflow: hidden;
+	text-align: center;
 }
-.skills2{
-	height: 43%;
-	width: 50%;
-	margin-left:32%;
-	margin-top: 6%;
-	transform: rotateZ(5deg);
-	-webkit-transform: rotateZ(5deg);
-}
+
 .p3-pic1,.p3-pic2,.p3-pic3,.p3-pic4{
 	position: absolute;
-	width: 15%;
-	
+	width: 12%;
+	bottom:10%;
 }
 .p3-pic1{
-	right: 20%;
-	top: 28%;
-	transform: rotateZ(8deg);
-	-webkit-transform: rotateZ(8deg);
+	right:15%;
 }
 .p3-pic2{
-	left: 15%;
-	top: 58%;
+	right:30%;
 }
 .p3-pic3{
-	right: 20%;
-	top: 44%;
-	
+	right:45%;
 }
 .p3-pic4{
-	left: 8%;
-	top: 74%;
-	transform: rotateZ(8deg);
-	-webkit-transform: rotateZ(8deg);
+	right:60%;
 }
 /* page4 */
 .p4{
 	position: absolute;
 	width: 80%;
 	left: 10%;
-	height: 83%;
+	height: 80%;
 	top: 8%;
 }
 .p4-con{
