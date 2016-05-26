@@ -36,8 +36,8 @@ body{margin: 0 auto;}
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 80px;
-	width: 80px;
+	height: 100px;
+	width: 100px;
 }
 
 /*  page1 */
@@ -304,7 +304,7 @@ body{margin: 0 auto;}
 }
 .p3-con{
 	width: 77%;
-	height: 60%;
+	height: 64%;
 	padding: 10% 0;
 	margin: 0 auto;
 	position: relative;
