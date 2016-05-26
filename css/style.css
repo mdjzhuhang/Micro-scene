@@ -36,33 +36,10 @@ body{margin: 0 auto;}
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 30px;
-	width: 30px;
-	border: 8px solid #E5E5E5;
-	border-top-color: #FFE439;
-	-webkit-animation: loading 0.5s linear infinite;
-	
+	height: 40px;
+	width: 40px;
 }
-@keyframes loading {
-	0% {
-		-webkit-transform-origin: center;
-		-ms-transform-origin: center;
-		transform-origin: center;
-		-webkit-transform: rotate3d(0, 0, 1, 0deg);
-		-ms-transform: rotate3d(0, 0, 1, deg);
-		transform: rotate3d(0, 0, 1, deg);
-		
-	}
-	100% {
-		-webkit-transform-origin: center;
-		-ms-transform-origin: center;
-		transform-origin: center;
-		-webkit-transform:  rotate3d(0, 0, 1, 360deg);
-		-ms-transform: rotate3d(0, 0, 1, 360deg);
-		transform: rotate3d(0, 0, 1, 360deg);
-		
-	}
-}
+
 /*  page1 */
 .swiper-slide:nth-of-type(1) img{
 	position: absolute;
